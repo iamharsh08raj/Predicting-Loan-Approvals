@@ -60,9 +60,9 @@ def main():
     print(inputs)
     if st.button('Submit'):
         if option=='Logistic Regression':
-            st.success(classify((model.predict(inputs))))
+            st.success(Submit((model.predict(inputs))))
         else:
-            st.success(classify((NBClassifier.predict(inputs))))
+            st.success(Submit((NBClassifier.predict(inputs))))
 
 
 if __name__=='__main__' :
