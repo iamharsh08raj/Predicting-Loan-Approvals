@@ -11,6 +11,7 @@ def Submit(num):
             'You Are Not Eligible For This Loan'
         )
     else:
+        st.balloons()
         st.success(
             'Congratulations! You Got The Loan'
         )
